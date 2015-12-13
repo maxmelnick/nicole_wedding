@@ -1,12 +1,14 @@
 $metallic-gold: #D4AF37;
 $cream: #FAEBD7;
+$dark-grey: rgb(51, 51, 51);
 
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 $headings-font-family : 'Great Vibes', cursive;
 $body-bg: $cream;
 $font-family-sans-serif: 'Open Sans', sans-serif;
-$navbar-default-link-color: rgb(51, 51, 51);
+$navbar-default-link-color: $dark-grey;
+$link-color: $dark-grey;
 /* $text-color: #D4AF37; */
 
 
@@ -34,6 +36,14 @@ $navbar-default-link-color: rgb(51, 51, 51);
 
 hr{
   border-top: 2px solid $metallic-gold;
+}
+
+#main-picture{
+  margin-bottom: 20px;
+}
+
+#overview-info{
+  margin-bottom: 75px;
 }
 
 
