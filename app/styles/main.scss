@@ -25,6 +25,8 @@ h1{
 hr{
   margin-top: 75px;
   margin-bottom: 75px;
+  border-top: 1px solid $metallic-gold;
+
 }
 
 .navbar-default{
@@ -40,10 +42,6 @@ hr{
 
 .title{
     font-size: 400%;
-}
-
-hr{
-  border-top: 2px solid $metallic-gold;
 }
 
 #main-picture{
