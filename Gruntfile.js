@@ -33,6 +33,13 @@ module.exports = function(grunt) {
                 },
                 cwd: "<%= config.dist %>/",
                 src: "**"
+            },
+            uat: {
+                options: {
+                    bucket: 'nicoleandjustin723stage'
+                },
+                cwd: "<%= config.dist %>/",
+                src: "**"
             }
         },
         // Project settings

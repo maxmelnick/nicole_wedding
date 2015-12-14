@@ -18,6 +18,14 @@ $link-color: $dark-grey;
 
 @import url(https://fonts.googleapis.com/css?family=Great+Vibes);
 
+h1{
+  margin-bottom: 50px;
+}
+
+hr{
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
 
 .navbar-default{
   background-color: $cream;
